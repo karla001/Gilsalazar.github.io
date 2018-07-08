@@ -46,11 +46,13 @@ p{
   height: 400px;
 }
 .profileimg{
-  margin: 2%;
-  height: 350px;
+  margin-top: 2%;
+  margin-bottom: 0px;
+  width: 400px;
 }
 .portfolio1{
   margin: 2%;
   height: 400px;
   width: 450px;
+  text-align: center;
 }
