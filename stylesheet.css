@@ -35,6 +35,10 @@
 h2{
   font-family: 'Arsenal', sans-serif;
 }
+h3{
+  text-align: left;
+  font-family: 'Arsenal', sans-serif;
+}
 p{
   font-family: 'Poiret One', cursive;
   text-align: left;
@@ -46,14 +50,15 @@ p{
   height: 400px;
 }
 .profileimg{
-  margin-top: 2%;
+  margin-top: 10px;
   margin-bottom: 0px;
-  width: 300px;
+  width: 400px;
   height: 200px;
 }
 .portfolio1{
-  margin: 2%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 50px;
   height: 400px;
   width: 450px;
-  text-align: center;
 }
