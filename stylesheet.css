@@ -3,11 +3,12 @@
   background-color: white;
   color: #f2c5dc;
   width: 40%;
-  height: 100vh;
-  postion: Fixed;
+  height: 95vh;
+  margin: 0;
+  position: fixed;
   float: left;
   text-align:center;
-  border: 6px solid #f2c5dc;
+  border: 10px solid #f2c5dc;
 }
 /*Right Side Split Browser*/
 .right-side-page{
@@ -42,13 +43,14 @@ p{
 /*Images*/
 .dino{
   margin: 5%;
-  height: 300px;
+  height: 400px;
 }
 .profileimg{
   margin: 2%;
-  height: 250px;
+  height: 350px;
 }
 .portfolio1{
   margin: 2%;
-  height: 150px;
+  height: 200px;
+  width: 250px;
 }
