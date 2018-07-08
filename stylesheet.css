@@ -56,8 +56,18 @@ p{
 }
 .portfolio1{
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-left: 50px;
   height: 600px;
   width: 650px;
+}
+/*Links*/
+
+a:link {
+  color: white;
+  background-color: #f2c5dc;
+  border-radius: 25px;
+}
+a:hover {
+  background-color: #5bc5ee;
 }
