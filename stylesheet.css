@@ -1,9 +1,9 @@
-/*Left Side Split Browser*/
+/*Fixed side/Left Side Split view window*/
 .Side-Navigation{
   background-color: white;
   color: #f2c5dc;
   width: 40%;
-  height: 100vh;
+  height: 95vh;
   position: fixed;
   float: left;
   text-align:center;
@@ -11,7 +11,7 @@
   margin-top: 0px; 
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 50px;
 }
 /*Right Side Split Browser*/
 .right-side-page{
@@ -38,20 +38,25 @@
 h2{
   font-family: 'Arsenal', sans-serif;
   color: #FFBB00;
+  margin-top: 4%;
 }
 h3{
   font-family: 'Arsenal', sans-serif;
-  color: #FFBB00;
+  color: #5bc5ee;
 }
 h4{
   font-family: 'Poiret One', cursive;
-  color: #C4D821;
+  color: #718800;
 }
 p{
   font-family: 'Poiret One', cursive;
   text-align: center;
   margin: 2.5%;
-  color: #C4D821;
+  color: #718800;
+}
+/*Icons*/
+i{
+  color: #5bc5ee;
 }
 /*Images*/
 .dino{
@@ -61,45 +66,134 @@ p{
 .profileimg{
   margin-top: 10px;
   margin-bottom: 0px;
+  margin-left: 10%;
   width: 400px;
   height: 400px;
+  border-radius: 100%;
+  border: 40px groove #5bc5ee;
+  position: block;
 }
-/*Overlay CSS Effect*/
-.container {
-  position: relative;
-  width: 80%;
-  display: block;
-}
-.portfolio1{
+.portfolioimg{
   margin-top: 0px;
   margin-bottom: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
-  width: 100%;
+  margin-left: 10%;
+  width: 88%;
 }
-.overlay {
+/*Overlay CSS Effect*/
+/*overlay1*/
+.container1 {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.overlay1 {
   position: absolute;
-  top: 10%;
+  top: 1%;
   bottom: 0;
-  left: 0;
+  left: 25%;
   right: 0;
-  height: 70%;
-  width: 70%;
+  height: 22%;
+  width: 50%;
   opacity: 0;
   transition: .5s ease;
+  background-color: #5bc5ee;
 }
-.container:hover .overlay {
+.container1:hover .overlay1 {
   opacity: 1;
-  background-color: #f2c5dc;
+}
+/*overlay2*/
+.container2 {
+  position: relative;
+  width: 100%;
+  display: block;
 }
 
+.overlay2 {
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  height: 30%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5bc5ee;
+}
+.container2:hover .overlay2{
+  opacity: 1;
+}
+/*overlay3*/
+.container3 {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.portfolio3{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  width: 88%;
+}
+.overlay3 {
+  position: absolute;
+  top: 2%;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  height: 70%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5bc5ee;
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+/*overlay4*/
+.container4 {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  display: block;
+}
+.portfolio4{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  width: 88%;
+}
+.overlayfour {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  height: 320px;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5bc5ee;
+}
+.container4:hover .overlayfour{
+  opacity: 1;
+}
+/*overlay text*/
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
+}
+#overlayicon{
+  color: white;
+}
+/*hover profile img effect */
+.profileimg:hover {
+  border: 40px groove #f2c5dc;
 }
