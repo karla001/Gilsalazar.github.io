@@ -4,11 +4,14 @@
   color: #f2c5dc;
   width: 40%;
   height: 95vh;
-  margin: 0;
   position: fixed;
   float: left;
   text-align:center;
-  border: 10px solid #f2c5dc;
+  border: 20px solid #f2c5dc;
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
 }
 /*Right Side Split Browser*/
 .right-side-page{
@@ -34,14 +37,21 @@
 /*Right Side, Headers and Paragraphs*/
 h2{
   font-family: 'Arsenal', sans-serif;
+  color: #FFBB00;
 }
 h3{
   font-family: 'Arsenal', sans-serif;
+  color: #FFBB00;
+}
+h4{
+  font-family: 'Poiret One', cursive;
+  color: #C4D821;
 }
 p{
   font-family: 'Poiret One', cursive;
-  text-align: left;
+  text-align: center;
   margin: 2.5%;
+  color: #C4D821;
 }
 /*Images*/
 .dino{
@@ -54,20 +64,41 @@ p{
   width: 400px;
   height: 400px;
 }
+/*Overlay CSS Effect*/
+.container {
+  position: relative;
+  width: 50%;
+  display: block;
+}
 .portfolio1{
   margin-top: 0px;
   margin-bottom: 30px;
-  margin-left: 50px;
-  height: 400px;
-  width: 450px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100%;
 }
-/*Links*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}.container:hover .overlay {
+  opacity: 1;
+}
 
-a:link {
+.text {
   color: white;
-  background-color: #f2c5dc;
-  border-radius: 25px;
-}
-a:hover {
-  background-color: #5bc5ee;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
