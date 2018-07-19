@@ -35,35 +35,35 @@
     text-transform: uppercase;
   }
 /*Right Side, Headers and Paragraphs*/
-h2{
+h2 {
   font-family: 'Arsenal', sans-serif;
   color: #FFBB00;
   margin-top: 4%;
 }
-h3{
+h3 { 
   font-family: 'Arsenal', sans-serif;
   color: #5bc5ee;
 }
-h4{
+h4 {
   font-family: 'Poiret One', cursive;
   color: #718800;
 }
-p{
+p {
   font-family: 'Poiret One', cursive;
   text-align: center;
   margin: 2.5%;
   color: #718800;
 }
 /*Icons*/
-i{
+i {
   color: #5bc5ee;
 }
 /*Images*/
-.dino{
+.dino {
   margin: 5%;
   height: 400px;
 }
-.profileimg{
+.profileimg {
   margin-top: 10px;
   margin-bottom: 0px;
   margin-left: 10%;
@@ -202,11 +202,40 @@ a:link {
 }
 @media only screen and (max-width: 600px) {
     .Side-Navigation{
-      height: 50vh;
+      height: 100vh;
       width: 100%;  
       position: relative;
       float: left;
       margin-right: 0px;
        border: 25px solid #f2c5dc;
     }
+    /*Left Side Intro Text*/
+  .intro-text .name {
+    font-size: 4em;
+    display: block;
+    font-family: 'Arsenal', sans-serif;
+    }
+
+  .intro-text .skills {
+    font-size: 3em;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+  }
+/*Right Side, Headers and Paragraphs*/
+  h2 {
+    font-family: 'Arsenal', sans-serif;
+    color: #FFBB00;
+    margin-top: 4%;
+  }
+  h3 {
+    font-family: 'Arsenal', sans-serif;
+    color: #5bc5ee;
+  }
+  h4 {
+    font-family: 'Poiret One', cursive;
+    color: #718800;
+  }
+  .profileimg {
+    display: hide;
+  }
 }
