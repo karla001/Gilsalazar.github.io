@@ -200,3 +200,13 @@ i{
 a:link {
   text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+    .Side-Navigation{
+      height: 50vh;
+      width: 100%;  
+      position: relative;
+      float: left;
+      margin-right: 0px;
+       border: 25px solid #f2c5dc;
+    }
+}
