@@ -247,4 +247,10 @@ a:link {
   h2 {
     margin-top: 30px;
   }
+  /*Right Side Split Browser*/
+.right-side-page{
+  width: 100%;
+  float: center;
+  text-align: center;
+}
 }
