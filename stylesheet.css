@@ -22,38 +22,6 @@
   float: right;
   text-align: center;
 }
-/*Left Side Intro Text*/
-.intro-text .name {
-    font-size: 3em;
-    display: block;
-    font-family: 'Arsenal', sans-serif;
-  }
-
-.intro-text .skills {
-    font-size: 2.5em;
-    font-family: 'Poiret One', cursive;
-    text-transform: uppercase;
-  }
-/*Right Side, Headers and Paragraphs*/
-h2 {
-  font-family: 'Arsenal', sans-serif;
-  color: #FFBB00;
-  margin-top: 4%;
-}
-h3 { 
-  font-family: 'Arsenal', sans-serif;
-  color: #5bc5ee;
-}
-h4 {
-  font-family: 'Poiret One', cursive;
-  color: #718800;
-}
-p {
-  font-family: 'Poiret One', cursive;
-  text-align: center;
-  margin: 2.5%;
-  color: #718800;
-}
 /*Icons*/
 i {
   color: #5bc5ee;
@@ -235,6 +203,12 @@ a:link {
     font-family: 'Poiret One', cursive;
     color: #718800;
   }
+  p {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  margin: 2.5%;
+  color: #718800;
+}
   .profileimg {
     display: none;
   }
